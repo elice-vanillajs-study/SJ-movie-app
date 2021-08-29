@@ -2,7 +2,8 @@ import React from "react";
 import { HashRouter, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
-import Navigation from "./routes/Navigation";
+import Detail from "./components/Detail";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navigation />
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/movie-detail" component={Detail} />
     </HashRouter>
   );
 }

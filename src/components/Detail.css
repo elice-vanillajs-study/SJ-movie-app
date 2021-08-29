@@ -1,0 +1,20 @@
+.detail,
+.detail__info {
+  width: 100vw;
+  height: 100vh;
+}
+
+.detail__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.detail img {
+  margin: 30px;
+}
+
+.detail__summary {
+  width: 30em;
+}
